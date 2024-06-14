@@ -1,13 +1,17 @@
 const Events = () => {
-
-    const handleMyEvent = (e) => {
-        console.log(e);
-        console.log('evento disparado');
-    };
+  const handleMyEvent = (e) => {
+    console.log(e);
+    console.log("evento disparado");
+  };
 
   return (
     <div>
-        <button onClick={handleMyEvent} >Clique aqui</button>
+      <div>
+        <button onClick={handleMyEvent}>Clique aqui</button>
+      </div>
+      <div>
+        <button onClick={() => console.log("clicou")}>click aqui tambem</button>
+      </div>
     </div>
   );
 };
