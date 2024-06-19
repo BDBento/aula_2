@@ -1,5 +1,5 @@
 const Events = () => {
-  const handleMyEvent = (e) => {
+  const handleMyEvent = (e) => {  
     console.log(e);
     console.log("evento disparado");
   };
